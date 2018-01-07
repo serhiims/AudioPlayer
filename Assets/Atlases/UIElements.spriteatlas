@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UIElements
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: 9f96bf2ee66cea2313c445efc8fc1231
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: 9f96bf2ee66cea2313c445efc8fc1231
+    totalSpriteSurfaceArea: 42500
+    packables:
+    - {fileID: 2800000, guid: dc471e92627866246b6c82197e098f8a, type: 3}
+    - {fileID: 2800000, guid: 092bb1d35a8847e4088b4e98bbb088d5, type: 3}
+    - {fileID: 2800000, guid: 6ac509e34c210bd4d950f4da2af676a5, type: 3}
+    - {fileID: 2800000, guid: 4cabea8e98b3ca446a6847255d9af1f8, type: 3}
+    - {fileID: 2800000, guid: 1788ee8404d4d41478f00fdf75dfeb28, type: 3}
+    - {fileID: 2800000, guid: 5ec819d8618333f4d80574441fd3644f, type: 3}
+    - {fileID: 2800000, guid: 5cbfc4489896e9f488d74d11a8e2dda8, type: 3}
+    - {fileID: 2800000, guid: 35d04698f21b4cf49b46c5904789563a, type: 3}
+    - {fileID: 2800000, guid: 47e89b736913a4745a754c336044c095, type: 3}
+    - {fileID: 2800000, guid: e2b3cac8081efcf4b92a054a3e0c6a26, type: 3}
+    - {fileID: 2800000, guid: a3491b4a9854c3d4f96760e6136c701d, type: 3}
+    - {fileID: 2800000, guid: 31837f3bc57f73d42b37d564077b39ec, type: 3}
+    - {fileID: 2800000, guid: e8a45fcad6821224498fe040f9ea3611, type: 3}
+    - {fileID: 2800000, guid: 3d3c86ffcf1492944b05e4677fccce0c, type: 3}
+    - {fileID: 2800000, guid: 46f7df1f24968024a8c5a918be7b7ca2, type: 3}
+    - {fileID: 2800000, guid: eb5676462d32d074f8b75351d3d9bf4f, type: 3}
+    - {fileID: 2800000, guid: 2418e0851c333ba4f9d4c5f70e6c7adb, type: 3}
+    packedSpriteRenderDataKeys:
+    - e8a45fcad6821224498fe040f9ea3611: 21300000
+    - 1788ee8404d4d41478f00fdf75dfeb28: 21300000
+    - 5ec819d8618333f4d80574441fd3644f: 21300000
+    - 2418e0851c333ba4f9d4c5f70e6c7adb: 21300000
+    - a3491b4a9854c3d4f96760e6136c701d: 21300000
+    - 46f7df1f24968024a8c5a918be7b7ca2: 21300000
+    - 31837f3bc57f73d42b37d564077b39ec: 21300000
+    - 5cbfc4489896e9f488d74d11a8e2dda8: 21300000
+    - 47e89b736913a4745a754c336044c095: 21300000
+    - 3d3c86ffcf1492944b05e4677fccce0c: 21300000
+    - 4cabea8e98b3ca446a6847255d9af1f8: 21300000
+    - dc471e92627866246b6c82197e098f8a: 21300000
+    - 092bb1d35a8847e4088b4e98bbb088d5: 21300000
+    - e2b3cac8081efcf4b92a054a3e0c6a26: 21300000
+    - 35d04698f21b4cf49b46c5904789563a: 21300000
+    - 6ac509e34c210bd4d950f4da2af676a5: 21300000
+    - eb5676462d32d074f8b75351d3d9bf4f: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e8a45fcad6821224498fe040f9ea3611, type: 3}
+  - {fileID: 21300000, guid: 1788ee8404d4d41478f00fdf75dfeb28, type: 3}
+  - {fileID: 21300000, guid: 5ec819d8618333f4d80574441fd3644f, type: 3}
+  - {fileID: 21300000, guid: 2418e0851c333ba4f9d4c5f70e6c7adb, type: 3}
+  - {fileID: 21300000, guid: a3491b4a9854c3d4f96760e6136c701d, type: 3}
+  - {fileID: 21300000, guid: 46f7df1f24968024a8c5a918be7b7ca2, type: 3}
+  - {fileID: 21300000, guid: 31837f3bc57f73d42b37d564077b39ec, type: 3}
+  - {fileID: 21300000, guid: 5cbfc4489896e9f488d74d11a8e2dda8, type: 3}
+  - {fileID: 21300000, guid: 47e89b736913a4745a754c336044c095, type: 3}
+  - {fileID: 21300000, guid: 3d3c86ffcf1492944b05e4677fccce0c, type: 3}
+  - {fileID: 21300000, guid: 4cabea8e98b3ca446a6847255d9af1f8, type: 3}
+  - {fileID: 21300000, guid: dc471e92627866246b6c82197e098f8a, type: 3}
+  - {fileID: 21300000, guid: 092bb1d35a8847e4088b4e98bbb088d5, type: 3}
+  - {fileID: 21300000, guid: e2b3cac8081efcf4b92a054a3e0c6a26, type: 3}
+  - {fileID: 21300000, guid: 35d04698f21b4cf49b46c5904789563a, type: 3}
+  - {fileID: 21300000, guid: 6ac509e34c210bd4d950f4da2af676a5, type: 3}
+  - {fileID: 21300000, guid: eb5676462d32d074f8b75351d3d9bf4f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - return
+  - buttonR
+  - buttonX
+  - play
+  - plus
+  - repeat
+  - previous
+  - minus
+  - musicOn
+  - random
+  - audioOn
+  - arrowLeft
+  - arrowRight
+  - next
+  - musicOff
+  - audioOff
+  - pause
+  m_Tag: UIElements
+  m_IsVariant: 0
