@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using System;
 
-public class ToggleButton : MonoBehaviour{
+public class ToggleButton : MonoBehaviour, IPointerClickHandler{
+	public event Action<bool> clickedCallback;
 
 	public GameObject iconOn;
 	public GameObject iconOff;
-	private bool _isOn = true;
+	private bool _isOn = false;
 
 	void Start () {
 		ChangeIcon ();
 	}
 
-	public bool IsOn
-	{
+	public bool IsOn{
 		get { return _isOn; }
 		set { _isOn = value; ChangeIcon();}
 	}
@@ -26,4 +28,12 @@ public class ToggleButton : MonoBehaviour{
 			iconOff.SetActive (!_isOn);
 		}
 	}
+
+	public void OnPointerClick(PointerEventData eventData){	
+		IsOn = !_isOn;
+		if (clickedCallback != null) {
+			clickedCallback (_isOn);
+		}
+	}
+
 }
